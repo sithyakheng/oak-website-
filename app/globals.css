@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body { background: #A59C91; color: #000; font-family: var(--font-inter), var(--font-khmer), sans-serif; }
+html[lang='km'] h1, html[lang='km'] h2, html[lang='km'] h3 { line-height: 1.5; }
+html[lang='km'] body { line-height: 1.75; }
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid #000; outline-offset: 2px; }
